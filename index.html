@@ -14,6 +14,7 @@
                     colors: {
                         clifford: '#da373d',
                         btnBg: 'rgba(182, 140, 90, 1)',
+                        formBg: '#F3F3F3',
                     }
                 }
             }
@@ -223,70 +224,316 @@
 
 
         <!-- what our client say section -->
-        <section class="text-center">
-            <h1 class="text-3xl font-bold ebGaramond my-5">What Our Client Say</h1>
-            <p class="text-gray-500 px-60">There are many variations of passages of Lorem Ipsum available, but the
+        <section class="text-center ">
+            <h1 class="text-5xl font-bold ebGaramond my-5">What Our Client Say</h1>
+            <p class="text-gray-500 text-2xl px-60 mb-6">There are many variations of passages of Lorem Ipsum available,
+                but the
                 majority have suffered alteration
                 in some form,
                 by injected humour.</p>
 
             <!-- slider part -->
-            <div>
-                <div class="carousel w-full mb-36 ">
-                    <!-- carousel 1 -->
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="/images/slider-1.jpg" class="w-full " />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide3" class="btn btn-circle">❮</a>
-                            <a href="#slide2" class="btn btn-circle">❯</a>
-                        </div>
-                        <h1 class="text-3xl font-bold mb-4">Hossain</h1>
-                        <!-- text  -->
-                        <div class="absolute text-white ">
+            <div class="carousel w-full relative mb-20">
 
-                            <div class="avatar mt-10">
-                                <div class="w-24 rounded-full">
-                                    <img
-                                        src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-                                </div>
+                <!-- carousel 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="/images/slider-1.jpg" class="w-full h-5/6" />
+
+                    <!-- carousel text part -->
+                    <div class="flex flex-col absolute text-white mt-48 items-center">
+                        <div class="avatar ">
+                            <div class="w-24 rounded-full">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
                             </div>
-                            <h1 class="text-3xl font-bold mb-4">Awlad Hossain</h1>
-                            <p class="mb-5">UIX Designer</p>
-                            <div class="w-2/3 ">
-                                <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random
-                                    text. It has
-                                    roots in a
-                                    piece of classical Latin literature
-                                    from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
-                                    Hampden-Sydney College in Virginia,
-                                    looked up one of the more obscure Latin words, consectetur.</p>
-                            </div>
-
-
                         </div>
-
-                    </div>
-
-                    <!-- carousel 2 -->
-                    <div id="slide2" class="carousel-item relative w-full">
-                        <img src="/images/slider-2.jpg" class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide1" class="btn btn-circle">❮</a>
-                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        <h1 class="text-3xl font-bold mb-4">Awlad Hossain</h1>
+                        <p class="mb-5">UIX Designer</p>
+                        <div class="px-36 ">
+                            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has
+                                roots in a
+                                piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+                                at
+                                Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, consectetur.</p>
                         </div>
                     </div>
+                    <!-- carousel text part ended -->
 
-                    <!-- carousel 3 -->
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="/images/slider-3.jpg" class="w-full" />
-                        <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-                            <a href="#slide2" class="btn btn-circle">❮</a>
-                            <a href="#slide1" class="btn btn-circle">❯</a>
-                        </div>
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- carousel 1 ended -->
+
+
+                <!-- carousel 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="/images/slider-2.jpg" class="w-full h-5/6" />
+
+                    <!-- carousel text part -->
+                    <div class="flex flex-col absolute text-white mt-48 items-center">
+                        <div class="avatar ">
+                            <div class="w-24 rounded-full">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h1 class="text-3xl font-bold mb-4">Awlad Hossain</h1>
+                        <p class="mb-5">UIX Designer</p>
+                        <div class="px-36 ">
+                            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has
+                                roots in a
+                                piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+                                at
+                                Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, consectetur.</p>
+                        </div>
+                    </div>
+                    <!-- carousel text part ended -->
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- carousel 2 ended -->
+
+
+                <!-- carousel 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="/images/slider-3.jpg" class="w-full h-5/6" />
+
+                    <!-- carousel text part -->
+                    <div class="flex flex-col absolute text-white mt-48 items-center">
+                        <div class="avatar ">
+                            <div class="w-24 rounded-full">
+                                <img src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+                            </div>
+                        </div>
+                        <h1 class="text-3xl font-bold mb-4">Awlad Hossain</h1>
+                        <p class="mb-5">UIX Designer</p>
+                        <div class="px-36 ">
+                            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random
+                                text. It has
+                                roots in a
+                                piece of classical Latin literature
+                                from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor
+                                at
+                                Hampden-Sydney College in Virginia,
+                                looked up one of the more obscure Latin words, consectetur.</p>
+                        </div>
+                    </div>
+                    <!-- carousel text part ended -->
+
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- carousel 3 ended -->
             </div>
         </section>
+
+
+
+        <!-- frequently asked any question section -->
+        <section>
+            <div class="text-center ">
+                <h1 class="text-5xl font-bold ebGaramond my-5">Frequently Asked Any Questions</h1>
+                <p class="text-gray-500 text-2xl px-60 mb-10">There are many variations of passages of Lorem Ipsum
+                    available,
+                    but the majority have suffered alteration
+                    in some form,
+                    by injected humour.</p>
+            </div>
+
+
+            <div class="grid grid-cols-2 gapy-16 mb-20">
+                <!-- accordion section -->
+                <div class="space-y-4">
+                    <!-- accordion 1 -->
+                    <div class="collapse collapse-plus bg-base-200 p-5">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-2xl font-bold text-left">1. Are application fee waivers
+                            available?</div>
+                        <div class="collapse-content">
+                            <p class="text-2xl text-gray-500">There are many variations of passages of Lorem Ipsum
+                                available, but the
+                                majority have
+                                suffered alteration in some form,
+                                by injected humour, .</p>
+                        </div>
+                    </div>
+
+                    <!-- accordion 2 -->
+                    <div class="collapse collapse-plus bg-base-200 p-5">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-2xl font-bold text-left">1. Are application fee waivers
+                            available?</div>
+                        <div class="collapse-content">
+                            <p class="text-2xl text-gray-500">There are many variations of passages of Lorem Ipsum
+                                available, but the
+                                majority have
+                                suffered alteration in some form,
+                                by injected humour, .</p>
+                        </div>
+                    </div>
+
+                    <!-- accordion 3 -->
+                    <div class="collapse collapse-plus bg-base-200 p-5">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-2xl font-bold text-left">1. Are application fee waivers
+                            available?</div>
+                        <div class="collapse-content">
+                            <p class="text-2xl text-gray-500">There are many variations of passages of Lorem Ipsum
+                                available, but the
+                                majority have
+                                suffered alteration in some form,
+                                by injected humour, .</p>
+                        </div>
+                    </div>
+
+                    <!-- accordion 4 -->
+                    <div class="collapse collapse-plus bg-base-200 p-5">
+                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <div class="collapse-title text-2xl font-bold text-left">1. Are application fee waivers
+                            available?</div>
+                        <div class="collapse-content">
+                            <p class="text-2xl text-gray-500">There are many variations of passages of Lorem Ipsum
+                                available, but the
+                                majority have
+                                suffered alteration in some form,
+                                by injected humour, .</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- FAQ image -->
+                <div>
+                    <img src="/images/faq.png" alt="">
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <!-- Contact With Us section -->
+        <section class="my-36">
+            <h1 class="text-5xl font-bold ebGaramond my-5 text-center">Contact With Us</h1>
+            <p class="text-gray-500 text-2xl px-60 mb-10">There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration
+                in some form,
+                by injected humour.</p>
+
+
+            <div class="grid  lg:grid-cols-2 justify-between gap-16">
+                <!-- contact card container -->
+
+                <div class="grid lg:grid-cols-2 text-center ">
+                    <!-- card info -->
+                    <div class="bg-formBg border-0 lg:border-2 space-y-4 py-16">
+                        <div class="grid justify-center "><img src="/images/address.png" alt="">
+                        </div>
+                        <h3 class="text-2xl font-bold">Address</h3>
+                        <p class="text-2xl text-gray-500">A108 Adam Street, <br>
+                            New York, NY 535022</p>
+                    </div>
+
+                    <div class="bg-formBg border-0 lg:border-2 space-y-4 py-16">
+                        <div class="grid justify-center"><img src="/images/call.png" alt="">
+                        </div>
+                        <h3 class="text-2xl font-bold">Call Us</h3>
+                        <p class="text-2xl text-gray-500">+88 01750 00 00 00 <br>
+                            +88 01750 00 00 00</p>
+                    </div>
+
+                    <div class="bg-formBg border-0 lg:border-2 space-y-4 py-16">
+                        <div class="grid justify-center"><img src="/images/time.png" alt=""></div>
+                        <h3 class="text-2xl font-bold">Working Hours</h3>
+                        <p class="text-2xl text-gray-500">Mon-Fri: 9AM to 5PM<br>
+                            Sunday: 9AM to 1 PM</p>
+                    </div>
+
+                    <div class="bg-formBg border-0 lg:border-2 space-y-4 py-16">
+                        <div class="grid justify-center"><img src="/images/email.png" alt=""></div>
+                        <h3 class="text-2xl font-bold">Email Us</h3>
+                        <p class="text-2xl text-gray-500">info@gmail.com <br>
+                            info@gmail.com</p>
+                    </div>
+                </div>
+
+
+
+
+
+                <!-- card form -->
+                <div>
+                    <div class="space-y-5">
+                        <input type="text" placeholder="Your Name"
+                            class="input input-bordered w-full  bg-formBg border-0 py-10 px-5" />
+                        <input type="email" placeholder="Your Email"
+                            class="input input-bordered w-full  bg-formBg border-0 py-10 px-5" />
+                        <input type="text" placeholder="Subject"
+                            class="input input-bordered w-full  bg-formBg border-0 py-10 px-5" /> <br>
+                        <textarea class="textarea w-full  bg-formBg border-0 h-52 px-5"
+                            placeholder="Your Message"></textarea>
+                        <br>
+                        <button class="btn w-full  bg-btnBg text-white font-bold  border-0 py-10 px-5">Send
+                            Message</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
     </main>
+
+
+    <footer>
+        <footer class="footer bg-black text-white p-10">
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="form-control w-80">
+                    <label class="label">
+                        <span class="label-text">Enter your email address</span>
+                    </label>
+                    <div class="join">
+                        <input type="text" placeholder="username@site.com" class="input input-bordered join-item" />
+                        <button class="btn btn-primary join-item">Subscribe</button>
+                    </div>
+                </fieldset>
+            </form>
+        </footer>
+    </footer>
 </body>
 </html>
